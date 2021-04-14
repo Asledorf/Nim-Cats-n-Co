@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ab342ebe75086ef42923b4f80308283a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainMenu: {instanceID: 0}
+  - newGame: {instanceID: 0}
+  - game: {instanceID: 0}
+  - gameOver: {instanceID: 0}
+  - options: {instanceID: 0}
+  - credits: {instanceID: 0}
+  - winner: {instanceID: 0}
+  - winnerText: {instanceID: 0}
+  - winCondition: {fileID: 11400000, guid: 2f9f0be5249303e4f9d723258bb85104, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
