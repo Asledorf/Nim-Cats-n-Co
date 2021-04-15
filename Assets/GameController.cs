@@ -5,14 +5,16 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject mainMenu;
+    public GameObject gameBackground;
     public GameObject newGame;
     public GameObject game;
     public GameObject gameOver;
+    public TMP_Text winnerText;
+
+    public GameObject menuBackground;
+    public GameObject mainMenu;
     public GameObject options;
     public GameObject credits;
-    public GameObject winner;
-    public TMP_Text winnerText;
 
     public StringData winCondition;
     public BoolData isEasy;
