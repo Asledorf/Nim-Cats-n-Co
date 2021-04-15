@@ -3156,7 +3156,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: onSFXVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &616612744
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,7 +3535,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: OnMusicVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &674936626
 GameObject:
   m_ObjectHideFlags: 0
@@ -3727,7 +3751,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: OnMasterVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &714591920
 GameObject:
   m_ObjectHideFlags: 0
@@ -9703,6 +9739,7 @@ MonoBehaviour:
   winCondition: {fileID: 11400000, guid: 2f9f0be5249303e4f9d723258bb85104, type: 2}
   IsPVP: {fileID: 11400000, guid: 3c418e779517e7340b524b6b89f0084d, type: 2}
   isEasy: {fileID: 11400000, guid: 12bbd5a6d65c63d48a834a717f45e5a5, type: 2}
+  audioMixer: {fileID: 0}
 --- !u!4 &1902738102
 Transform:
   m_ObjectHideFlags: 0
