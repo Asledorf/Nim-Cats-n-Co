@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
@@ -27,6 +28,8 @@ public class GameController : MonoBehaviour
     public StringData winCondition;
     public BoolData IsPVP;
     public BoolData isEasy;
+
+    public AudioMixer audioMixer;
 
     private gameStates gameState = gameStates.NotActive;
 
@@ -107,7 +110,20 @@ public class GameController : MonoBehaviour
         credits.SetActive(true);
     }
 
-    public void OnPVP(bool change)
+    public void OnMasterVolume(float level)
+    {
+        audioMixer.SetFloat("MasterVolume", level);
+    }
+    public void OnMusicVolume(float level)
+    {
+        audioMixer.SetFloat("MusicVolume", level);
+    }
+    public void onSFXVolume(float level)
+    {
+        audioMixer.SetFloat("SFXVolume", level);
+    }
+
+public void OnPVP(bool change)
     {
         if (change)
         {
