@@ -341,7 +341,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 28695308}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &28695308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1458,7 +1470,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 303919494}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: To5Game
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &303919494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,7 +1603,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 310909239}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToNewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &310909239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,7 +1736,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 363363440}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: To7Game
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &363363440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2547,7 +2595,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 508032923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToNewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &508032923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3554,7 +3614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &695663330
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4043,7 +4103,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 733895207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &733895207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4913,7 +4985,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: OnPVP
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_IsOn: 1
 --- !u!1 &1000668582
 GameObject:
@@ -5578,7 +5662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1110777558
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5718,7 +5802,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1117946264}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1117946264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5959,7 +6055,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1157089272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1157089272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6543,7 +6651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1275893663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6994,7 +7102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1323678921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7476,7 +7584,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1445184300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ToOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1445184300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8301,8 +8421,20 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
-  m_IsOn: 1
+      m_Calls:
+      - m_Target: {fileID: 1902738101}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: OnPVC
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
 --- !u!1 &1735768494
 GameObject:
   m_ObjectHideFlags: 0
@@ -9524,6 +9656,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873723056}
   m_CullTransparentMesh: 0
+--- !u!1 &1902738100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1902738102}
+  - component: {fileID: 1902738101}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1902738101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902738100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab342ebe75086ef42923b4f80308283a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameBackground: {fileID: 1110777557}
+  newGame: {fileID: 81696727}
+  game: {fileID: 2124640465}
+  gameOver: {fileID: 695663329}
+  winnerText: {fileID: 221666281}
+  menuBackground: {fileID: 1809173290}
+  mainMenu: {fileID: 830074001}
+  options: {fileID: 116226374}
+  credits: {fileID: 746995035}
+  player1: {fileID: 2107534680}
+  player2: {fileID: 1925369279}
+  pvp: {fileID: 953564055}
+  pvc: {fileID: 1720276283}
+  player1data: {fileID: 11400000, guid: 84b5d7548093708459d55446effe0391, type: 2}
+  player2data: {fileID: 11400000, guid: 380cdadd7c499c54ab41478a442ba981, type: 2}
+  winCondition: {fileID: 11400000, guid: 2f9f0be5249303e4f9d723258bb85104, type: 2}
+  IsPVP: {fileID: 11400000, guid: 3c418e779517e7340b524b6b89f0084d, type: 2}
+  isEasy: {fileID: 11400000, guid: 12bbd5a6d65c63d48a834a717f45e5a5, type: 2}
+--- !u!4 &1902738102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902738100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 737.3043, y: 404.14212, z: -51.47246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906826608
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -16,7 +17,15 @@ public class GameController : MonoBehaviour
     public GameObject options;
     public GameObject credits;
 
+    public TMP_InputField player1;
+    public TMP_InputField player2;
+    public Toggle pvp;
+    public Toggle pvc;
+
+    public StringData player1data;
+    public StringData player2data;
     public StringData winCondition;
+    public BoolData IsPVP;
     public BoolData isEasy;
 
     private gameStates gameState = gameStates.NotActive;
@@ -49,20 +58,26 @@ public class GameController : MonoBehaviour
 
     public void ToMainMenu()
     {
+        gameBackground.SetActive(false);
         newGame.SetActive(false);
         options.SetActive(false);
         game.SetActive(false);
         gameOver.SetActive(false);
         credits.SetActive(false);
+        menuBackground.SetActive(true);
         mainMenu.SetActive(true);
     }
     public void ToNewGame()
     {
+        menuBackground.SetActive(false);
         mainMenu.SetActive(false);
+        gameBackground.SetActive(true);
+        gameOver.SetActive(false);
         newGame.SetActive(true);
     }
     public void To5Game()
     {
+        writeNames();
         newGame.SetActive(false);
         game.SetActive(true);
         isEasy.value = true;
@@ -70,6 +85,7 @@ public class GameController : MonoBehaviour
     }
     public void To7Game()
     {
+        writeNames();
         newGame.SetActive(false);
         game.SetActive(true);
         isEasy.value = false;
@@ -89,5 +105,38 @@ public class GameController : MonoBehaviour
     {
         mainMenu.SetActive(false);
         credits.SetActive(true);
+    }
+
+    public void OnPVP(bool change)
+    {
+        if (change)
+        {
+            pvc.isOn = false;
+            IsPVP.value = true;
+        }
+        else
+        {
+            pvc.isOn = true;
+            IsPVP.value = false;
+        }
+    }
+    public void OnPVC(bool change)
+    {
+        if (change)
+        {
+            pvp.isOn = false;
+            IsPVP.value = false;
+        }
+        else
+        {
+            pvp.isOn = true;
+            IsPVP.value = true;
+        }
+    }
+
+    private void writeNames()
+    {
+        player1data.value = player1.text;
+        player2data.value = player2.text;
     }
 }
