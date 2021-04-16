@@ -123,7 +123,7 @@ public class GameController : MonoBehaviour
         audioMixer.SetFloat("SFXVolume", level);
     }
 
-public void OnPVP(bool change)
+    public void OnPVP(bool change)
     {
         if (change)
         {
